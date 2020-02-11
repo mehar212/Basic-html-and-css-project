@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+     <title>Appointment</title>
+</head>
+<body>
+<div class="fi">
+ <li class="form-line" data-type="control_checkbox" id="id_20">
+                <label class="form-label form-label-left form-label-auto" id="label_20" for="input_20"> Type of job </label>
+                <div id="cid_20" class="forminput">
+                  <div class="form-single-column" role="group" aria-labelledby="label_20" data-component="checkbox">
+                    <span class="form-checkbox-item" style="clear:left">
+                      <span class="dragger-item">
+                      </span>
+                      <input type="checkbox" class="form-checkbox" id="input_20_0" name="q20_reasonOf[]" value="Neuter / Spay">
+                      <label id="label_input_20_0" for="input_20_0"> Full Time </label>
+                    </span>
+                    <span class="form-checkbox-item" style="clear:left">
+                      <span class="dragger-item">
+                      </span>
+                      <input type="checkbox" class="form-checkbox" id="input_20_1" name="q20_reasonOf[]" value="Vaccination">
+                      <label id="label_input_20_1" for="input_20_1"> Internship </label>
+                    </span>
+                    <span class="form-checkbox-item" style="clear:left">
+                      <span class="dragger-item">
+                      </span>
+                      <input type="checkbox" class="form-checkbox" id="input_20_2" name="q20_reasonOf[]" value="Caesarian Section">
+                      <label id="label_input_20_2" for="input_20_2"> Part TIme </label>
+                    </span>
+                    <span class="form-checkbox-item" style="clear:left">
+                      <span class="dragger-item">
+                      </span>
+                      
+              <li class="form-line allowTime" data-type="control_datetime" id="id_26">
+                <label class="form-label form-label-left form-label-auto" id="label_26" for="month_26"> Appointment Date </label>
+                <div id="cid_26" class="form-input">
+                  <div data-wrapper-react="true">
+                    <span class="form-sub-label-container " style="vertical-align:top">
+                      <input type="tel" class="form-textbox validate[limitDate]" id="month_26" name="q26_appointmentDate[month]" size="2" data-maxlength="2" value="02" aria-labelledby="label_26 sublabel_26_month">
+                      <span class="date-separate" aria-hidden="true">
+                        &nbsp;-
+                      </span>
+                      <label class="form-sub-label" for="month_26" id="sublabel_26_month" style="min-height:13px" aria-hidden="false"> Month </label>
+                    </span>
+                    <span class="form-sub-label-container " style="vertical-align:top">
+                      <input type="tel" class="currentDate form-textbox validate[limitDate]" id="day_26" name="q26_appointmentDate[day]" size="2" data-maxlength="2" value="11" aria-labelledby="label_26 sublabel_26_day">
+                      <span class="date-separate" aria-hidden="true">
+                        &nbsp;-
+                      </span>
+                      <label class="form-sub-label" for="day_26" id="sublabel_26_day" style="min-height:13px" aria-hidden="false"> Day </label>
+                    </span>
+                    <span class="form-sub-label-container " style="vertical-align:top">
+                      <input type="tel" class="form-textbox validate[limitDate]" id="year_26" name="q26_appointmentDate[year]" size="4" data-maxlength="4" value="2020" aria-labelledby="label_26 sublabel_26_year">
+                      <label class="form-sub-label" for="year_26" id="sublabel_26_year" style="min-height:13px" aria-hidden="false"> Year </label>
+                    </span>
+                    <span style="white-space:nowrap;display:inline-block" class="allowTime-container">
+                      <span class="form-sub-label-container " style="vertical-align:top">
+                        <div id="at_26">
+                          at
+                        </div>
+                      </span>
+                      <span class="form-sub-label-container " style="vertical-align:top">
+                        <select class="currentTime time-dropdown form-dropdown validate[limitDate]" id="hour_26" name="q26_appointmentDate[hour]" aria-labelledby="label_26 sublabel_26_hour">
+                          <option>  </option>
+                          <option value="1"> 1 </option>
+                          <option value="2"> 2 </option>
+                          <option value="3"> 3 </option>
+                          <option value="4"> 4 </option>
+                          <option value="5"> 5 </option>
+                          <option value="6"> 6 </option>
+                          <option selected="" value="7"> 7 </option>
+                          <option value="8"> 8 </option>
+                          <option value="9"> 9 </option>
+                          <option value="10"> 10 </option>
+                          <option value="11"> 11 </option>
+                          <option value="12"> 12 </option>
+                        </select>
+                        <span class="date-separate" aria-hidden="true">
+                          &nbsp;:
+                        </span>
+                        <label class="form-sub-label" for="hour_26" id="sublabel_26_hour" style="min-height:13px" aria-hidden="false"> Hour </label>
+                      </span>
+                      <span class="form-sub-label-container " style="vertical-align:top">
+                        <select class="time-dropdown form-dropdown validate[limitDate]" id="min_26" name="q26_appointmentDate[min]" aria-labelledby="label_26 sublabel_26_minutes">
+                          <option>  </option>
+                          <option value="00"> 00 </option>
+                          <option selected="" value="10"> 10 </option>
+                          <option value="20"> 20 </option>
+                          <option value="30"> 30 </option>
+                          <option value="40"> 40 </option>
+                          <option value="50"> 50 </option>
+                        </select>
+                        <label class="form-sub-label" for="min_26" id="sublabel_26_minutes" style="min-height:13px" aria-hidden="false"> Minutes </label>
+                      </span>
+                      <span class="form-sub-label-container " style="vertical-align:top">
+                        <select class="time-dropdown form-dropdown validate[limitDate]" id="ampm_26" name="q26_appointmentDate[ampm]" aria-labelledby="label_26 sublabel_26_ampm">
+                          <option selected="" value="AM"> AM </option>
+                          <option value="PM"> PM </option>
+                        </select>
+                        <label class="form-sub-label" for="ampm_26" id="sublabel_26_ampm" style="border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap" aria-hidden="false"> AM/PM Option </label>
+                      </span>
+                    </span>
+                    <span class="form-sub-label-container " style="vertical-align:top">
+                      <img class="showAutoCalendar" alt="Pick a Date" id="input_26_pick" src="https://cdn.jotfor.ms/images/calendar.png" style="vertical-align:middle;margin-left:5px" data-component="datetime" aria-hidden="true">
+                      <label class="form-sub-label" for="input_26_pick" style="border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap" aria-hidden="true"> Date Picker Icon </label>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li class="form-line" data-type="control_textarea" id="id_18">
+                <label class="form-label form-label-left form-label-auto" id="label_18" for="input_18"> Your Comments </label>
+                <div id="cid_18" class="form-input">
+                  <textarea id="input_18" class="form-textarea" name="q18_yourComments" cols="40" rows="6" data-component="textarea" aria-labelledby="label_18"></textarea>
+                </div>
+              </li>
+              <li class="form-line" data-type="control_button" id="id_2">
+                <div id="cid_2" class="form-input-wide">
+                  <div style="margin-left:156px" class="form-buttons-wrapper ">
+                    <a href="thank.html">
+                    <button id="input_2" type="submit" class="form-submit-button" data-component="button" data-content="">
+                      Submit Form
+                    </button>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li style="display:none">
+                Should be Empty:
+                <input type="text" name="website" value="">
+              </li>
+            </ul>
+          </div>
+</div>      
+          
+</body>
+</html>
